@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ImageQuestion.swift
 //  quiz
 //
 //  Created by Luo Xiaoshu on 10/2/15.
@@ -8,31 +8,36 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ImageQuestion: UIViewController {
     
-
+    var number = Int()
+    
     @IBOutlet weak var userInput: UITextField!
-    var number = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+
+        // Do any additional setup after loading the view.
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
 
+    
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         // Get the new view controller using segue.destinationViewController.
         // Pass the selected object to the new view controller.
-        if userInput.text == "Finn" {
+        if userInput.text == "Marceline" {
             number = number + 1
         }
-        let DestViewController : ImageQuestion = segue.destinationViewController as! ImageQuestion
+        let DestViewController : ViewController2 = segue.destinationViewController as! ViewController2
         DestViewController.number = self.number
     }
 
 }
-
