@@ -474,6 +474,7 @@
 				F775D9431BDDD49D003FB4CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F775D9441BDDD49D003FB4CF /* Build configuration list for PBXNativeTarget "calendarTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +483,7 @@
 				F775D9461BDDD49D003FB4CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F775D9471BDDD49D003FB4CF /* Build configuration list for PBXNativeTarget "calendarUITests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +492,7 @@
 				F775D9491BDDD49D003FB4CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
